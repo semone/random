@@ -6,6 +6,3 @@ const perGroup = process.argv.slice(2)?.[0] || 5
 const output = randomize(input, perGroup);
 console.log(output);
 writeFileSync('output.txt', output);
-
-
-
